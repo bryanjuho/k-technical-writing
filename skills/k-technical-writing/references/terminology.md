@@ -18,6 +18,7 @@
 | branch | 브랜치 | 브런치 | |
 | cache | 캐시 | 캐쉬 | |
 | certificate | 인증서 | 서티피케이트 | |
+| change | 변경사항 | 변경 사항 | 명사. 표준 띄어쓰기는 `변경 사항` |
 | changelog | 변경이력 | 변경 기록, 체인지로그 | 파일 이름 `CHANGELOG.md`는 원문 |
 | cluster | 클러스터 | 클러스타 | |
 | commit | 커밋 | 컴밋 | |
@@ -38,6 +39,7 @@
 | load balancer | 로드 밸런서 | 로드밸런서 | 제품 이름은 공식 표기 |
 | log | 로그 | |  |
 | manifest | 매니페스트 | 메니페스트 | |
+| merge | 병합 | 머지 | Git 병합, PR 병합 |
 | message | 메시지 | 메세지 | |
 | namespace | 네임스페이스 | 네임 스페이스 | |
 | node | 노드 | |  |

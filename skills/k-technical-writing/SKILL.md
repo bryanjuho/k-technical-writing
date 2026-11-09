@@ -4,7 +4,7 @@ description: Write, edit, or review Korean technical text (docs, READMEs, runboo
 license: MIT
 metadata:
   author: bryanjuho
-  version: "1.2.0"
+  version: "1.2.1"
 ---
 
 # 한국어 기술 문서
