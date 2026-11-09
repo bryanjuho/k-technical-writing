@@ -17,6 +17,14 @@
 비밀값, 사람 이름, 회사 내부 정보(호스트 이름, IP, 이슈 키, 저장소 경로, 내부 리소스 이름)는 일반 표현으로 변경
 -->
 
+### FB-20261109-06
+- 날짜: 2026-11-09
+- 출처: 세션 피드백
+- 원문: `dataeng-email`, `sentry-email`을 Alertmanager selector에서 제외했습니다. 알림 규칙과 대시보드는 그대로입니다.
+- 수정본: `dataeng-email`, `sentry-email`을 Alertmanager selector에서 제외했습니다. (알림 규칙과 대시보드는 변경 없음)
+- 사용자 말: "I see words, phrases I resent. for instance: "알림 규칙과 대시보드는 그대로입니다." ... this should be ..."
+- 도출 규칙: LR-019
+
 ### FB-20261109-05
 - 날짜: 2026-11-09
 - 출처: 세션 피드백
