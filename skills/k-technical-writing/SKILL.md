@@ -128,7 +128,7 @@ metadata:
 | 프로젝트 | 작업 중인 저장소 루트의 `.k-technical-writing/learned-rules.md` | 그 프로젝트의 용어, 이름, 문서 형식에만 해당하는 규칙 |
 | 개인 | git 설치이면 `references/learned-rules.md`, 아니면 `~/.config/k-technical-writing/learned-rules.md` | 어느 프로젝트에서나 적용할 문체 규칙 |
 
-- git 설치는 `git -C <스킬 디렉터리> rev-parse --show-toplevel`의 결과가 `<스킬 디렉터리>/../..`의 실제 경로와 같고, 그 경로에 `.claude-plugin/plugin.json`이 있는 경우입니다. 이 스킬의 저장소를 직접 클론한 경우만 해당합니다. 다른 저장소 안에 복사된 경우와 플러그인이나 skills CLI로 설치한 경우는 업데이트할 때 덮어써지므로 `~/.config/k-technical-writing/`을 씁니다.
+- git 설치는 `git -C <스킬 디렉터리> rev-parse --show-toplevel`의 결과가 `<스킬 디렉터리>/../..`의 실제 경로와 같고, 그 경로에 `.claude-plugin/plugin.json`이 있는 경우입니다. 사용자가 이 스킬의 저장소를 직접 클론한 경우만 해당합니다. 에이전트가 관리하는 디렉터리(`~/.claude/plugins/`, `~/.codex/`, `~/.pi/`, `~/.agents/`) 아래에 있으면 git 저장소여도 git 설치로 보지 않습니다. 다른 저장소 안에 복사된 경우와 플러그인이나 패키지로 설치한 경우는 업데이트할 때 덮어써지므로 `~/.config/k-technical-writing/`을 씁니다.
 - 피드백 로그(`feedback-log.md`)는 규칙 파일과 같은 디렉터리에 둡니다. 파일이 없으면 [references/learned-rules.md](references/learned-rules.md)와 [references/feedback-log.md](references/feedback-log.md)의 머리말 형식을 복사해 만듭니다.
 - 범위가 애매하면 개인 규칙으로 저장하고, 저장한 위치를 사용자에게 알립니다.
 
@@ -147,7 +147,7 @@ metadata:
 5. 정리: 다음 경우에 학습 규칙을 style.md로 옮깁니다. 피드백 로그는 그대로 둡니다.
    - `active` 규칙이 60개를 넘는 경우: 겹치는 규칙을 합쳐 ST 규칙으로 옮깁니다.
    - 선택 예시(D) 항목 하나에 같은 방향의 LR 규칙이 두 개 이상 쌓인 경우: 그 D 항목의 기본값과 예시를 고칩니다.
-   - 옮긴 LR 규칙은 상태를 `promoted → ST-NN`으로 바꿉니다. style.md를 바꾸면 SKILL.md의 `metadata.version`과 `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`의 `version`에서 minor 번호를 함께 올립니다.
+   - 옮긴 LR 규칙은 상태를 `promoted → ST-NN`으로 바꿉니다. style.md를 바꾸면 SKILL.md의 `metadata.version`과 `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `.codex-plugin/plugin.json`, `package.json`의 `version`에서 minor 번호를 함께 올립니다.
    - git 설치가 아니면 style.md로 옮기지 않고 학습 규칙 파일 안에서 합칩니다. 프로젝트 학습 규칙은 style.md로 옮기지 않습니다.
 6. 보고: 추가하거나 바꾼 규칙과 파일을 사용자에게 한 줄로 알립니다. 예: "LR-004 추가(개인 규칙): 커밋 본문에서 `~하도록 합니다` 대신 `~합니다`를 씁니다."
 

@@ -1,0 +1,20 @@
+{
+  "name": "k-technical-writing",
+  "interface": {
+    "displayName": "bryanjuho"
+  },
+  "plugins": [
+    {
+      "name": "k-technical-writing",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

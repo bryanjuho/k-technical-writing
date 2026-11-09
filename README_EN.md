@@ -41,20 +41,18 @@ ln -s ~/src/k-technical-writing/skills/k-technical-writing ~/.claude/skills/k-te
 
 For other agents that support the Agent Skills format, link the same directory into that agent's skills directory.
 
-### As a Claude Code plugin
+### As a plugin or package
 
-```bash
-claude plugin marketplace add bryanjuho/k-technical-writing
-claude plugin install k-technical-writing@k-technical-writing
-```
+Install straight from the GitHub repository. Nothing is published to npm.
 
-### With the skills CLI
+| Agent | Commands |
+|---|---|
+| Claude Code | `claude plugin marketplace add bryanjuho/k-technical-writing`<br>`claude plugin install k-technical-writing@k-technical-writing` |
+| Codex | `codex plugin marketplace add bryanjuho/k-technical-writing`<br>`codex plugin add k-technical-writing@k-technical-writing` |
+| pi | `pi install git:github.com/bryanjuho/k-technical-writing` |
+| Other agents | `npx skills add bryanjuho/k-technical-writing` |
 
-```bash
-npx skills add bryanjuho/k-technical-writing
-```
-
-Plugin and skills-CLI installs are overwritten on update, so learned rules go to `~/.config/k-technical-writing/` instead.
+Plugin and package installs are overwritten on update, so learned rules go to `~/.config/k-technical-writing/` instead.
 
 ## Self-improvement
 
@@ -64,7 +62,7 @@ When you correct Korean an agent wrote, the agent logs the correction, adds a ru
 |---|---|
 | Project | `.k-technical-writing/learned-rules.md` at the project root |
 | Personal (git install) | `skills/k-technical-writing/references/learned-rules.md` |
-| Personal (plugin or skills CLI) | `~/.config/k-technical-writing/learned-rules.md` |
+| Personal (plugin or package) | `~/.config/k-technical-writing/learned-rules.md` |
 
 `scripts/harvest_feedback.py` collects later human edits to Korean lines that AI-assisted commits wrote, as rule candidates. Pass `--ai-pattern` with a regular expression that matches only agent-written commit messages.
 

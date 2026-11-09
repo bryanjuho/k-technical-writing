@@ -41,20 +41,18 @@ ln -s ~/src/k-technical-writing/skills/k-technical-writing ~/.claude/skills/k-te
 
 Agent Skills 형식을 지원하는 다른 에이전트는 그 에이전트의 스킬 디렉터리에 같은 방법으로 연결합니다.
 
-### Claude Code 플러그인으로 설치
+### 플러그인이나 패키지로 설치
 
-```bash
-claude plugin marketplace add bryanjuho/k-technical-writing
-claude plugin install k-technical-writing@k-technical-writing
-```
+GitHub 저장소에서 바로 설치합니다. npm에 게시하지 않습니다.
 
-### skills CLI로 설치
+| 에이전트 | 명령 |
+|---|---|
+| Claude Code | `claude plugin marketplace add bryanjuho/k-technical-writing`<br>`claude plugin install k-technical-writing@k-technical-writing` |
+| Codex | `codex plugin marketplace add bryanjuho/k-technical-writing`<br>`codex plugin add k-technical-writing@k-technical-writing` |
+| pi | `pi install git:github.com/bryanjuho/k-technical-writing` |
+| 그 밖의 에이전트 | `npx skills add bryanjuho/k-technical-writing` |
 
-```bash
-npx skills add bryanjuho/k-technical-writing
-```
-
-플러그인이나 skills CLI로 설치한 스킬은 업데이트할 때 파일이 덮어써집니다. 이 경우 학습 규칙은 `~/.config/k-technical-writing/`에 기록됩니다.
+플러그인이나 패키지로 설치한 스킬은 업데이트할 때 파일이 덮어써집니다. 이 경우 학습 규칙은 `~/.config/k-technical-writing/`에 기록됩니다.
 
 ## 사용 방법
 
@@ -83,7 +81,7 @@ git 설치에서는 학습 규칙과 피드백 로그가 공개 저장소에 올
 |---|---|
 | 프로젝트 | 프로젝트 루트의 `.k-technical-writing/learned-rules.md` |
 | 개인(git 설치) | `skills/k-technical-writing/references/learned-rules.md` |
-| 개인(플러그인, skills CLI 설치) | `~/.config/k-technical-writing/learned-rules.md` |
+| 개인(플러그인, 패키지 설치) | `~/.config/k-technical-writing/learned-rules.md` |
 
 git 이력에서 사람이 고친 표현을 모아 학습 후보로 쓸 수도 있습니다.
 
