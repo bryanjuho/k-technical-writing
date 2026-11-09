@@ -1,0 +1,12 @@
+{
+  "name": "k-technical-writing",
+  "description": "Korean technical writing for docs, release notes, API references, commit messages and code comments, modeled on Korean cloud and fintech developer docs. Learns from user feedback.",
+  "version": "1.0.0",
+  "author": {
+    "name": "bryanjuho"
+  },
+  "homepage": "https://github.com/bryanjuho/k-technical-writing",
+  "repository": "https://github.com/bryanjuho/k-technical-writing",
+  "license": "MIT",
+  "keywords": ["korean", "technical-writing", "documentation", "changelog", "release-notes", "style-guide"]
+}
