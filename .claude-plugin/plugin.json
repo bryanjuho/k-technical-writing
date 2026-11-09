@@ -1,7 +1,7 @@
 {
   "name": "k-technical-writing",
   "description": "Korean technical writing for docs, release notes, API references, commit messages and code comments, modeled on Korean technical docs and commercial software changelogs. Learns from user feedback.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "bryanjuho"
   },
