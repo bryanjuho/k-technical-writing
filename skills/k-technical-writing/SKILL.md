@@ -1,6 +1,6 @@
 ---
 name: k-technical-writing
-description: Write, edit, translate, or review Korean technical text - docs, READMEs, runbooks, incident records, release notes and CHANGELOG entries, API references, code and config comments, alert text, commit messages, and PR titles or bodies - in the style of Korean cloud and fintech developer docs (formal hapnida register, noun-final headings and release-note entries, attached particles, backticked identifiers). Use whenever an agent writes or changes Korean prose, or is asked to review, polish, or translate it. Also use whenever the user gives feedback on Korean wording (corrections, rejected edits, "don't write it like this", "use X not Y", "remember this", shared review comments on wording) so the feedback is logged and turned into a learned rule. Verifies facts against code and diffs before polishing and never alters identifiers, paths, commands, or config keys.
+description: Write, edit, translate, or review Korean technical text - docs, READMEs, runbooks, incident records, release notes and CHANGELOG entries, API references, code and config comments, alert text, commit messages, and PR titles or bodies - in the style of Korean technical docs and commercial software changelogs (formal hapnida register, noun-final headings and release-note entries, attached particles, backticked identifiers). Use whenever an agent writes or changes Korean prose, or is asked to review, polish, or translate it. Also use whenever the user gives feedback on Korean wording (corrections, rejected edits, "don't write it like this", "use X not Y", "remember this", shared review comments on wording) so the feedback is logged and turned into a learned rule. Verifies facts against code and diffs before polishing and never alters identifiers, paths, commands, or config keys.
 license: MIT
 metadata:
   author: bryanjuho
@@ -9,7 +9,7 @@ metadata:
 
 # 한국어 기술 문서 작성
 
-한국어 기술 문서를 국내 클라우드와 핀테크 개발자 문서와 같은 문체로 씁니다. 기준 문서는 NAVER Cloud, NHN Cloud, Kakao Cloud, Toss Payments의 가이드, 릴리즈 노트, API 레퍼런스입니다. 출처는 [references/style-sources.md](references/style-sources.md)에 있습니다.
+국내 기술 문서와 상용 소프트웨어 변경이력의 문체로 한국어 기술 문서를 씁니다.
 
 ## 적용 범위
 

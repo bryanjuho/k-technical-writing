@@ -17,7 +17,7 @@
 |---|---|---|---|
 | access key | 액세스 키 | 엑세스 키 | |
 | alert | 알림, 경보 | 얼럿, 얼러트 | 수신자에게 가는 것은 알림, 모니터링 규칙이 울리는 것은 경보 |
-| availability zone | 가용 영역 | | NHN Cloud는 `가용성 영역`, NAVER Cloud는 `존`을 씁니다. |
+| availability zone | 가용 영역 | | |
 | backup | 백업 | 백 업 | |
 | branch | 브랜치 | 브런치 | |
 | cache | 캐시 | 캐쉬 | |
@@ -37,7 +37,7 @@
 | failover | 장애 조치 | 페일오버 | |
 | image | 이미지 | | |
 | instance | 인스턴스 | | |
-| key pair | 키 페어 | | NHN Cloud는 `키페어`, NAVER Cloud는 `인증키`를 씁니다. |
+| key pair | 키 페어 | | |
 | load balancer | 로드 밸런서 | 로드밸런서 | 제품 이름이면 공식 표기를 씁니다. |
 | log | 로그 | | |
 | manifest | 매니페스트 | 메니페스트 | |
@@ -46,7 +46,7 @@
 | node | 노드 | | |
 | parameter | 파라미터 | 패러미터 | |
 | permission | 권한 | 퍼미션 | |
-| pod | Pod | 팟, 포드 | 리소스 종류로 보고 영어로 씁니다. 조사는 `파드`로 읽어 고릅니다(Pod를). Kakao Cloud는 본문에서 `파드`를 씁니다. 한 문서 안에서는 Pod와 파드를 섞지 않습니다. |
+| pod | Pod | 팟, 포드 | 리소스 종류로 보고 영어로 씁니다. 조사는 `파드`로 읽어 고릅니다(Pod를). 한 문서 안에서는 Pod와 파드를 섞지 않습니다. |
 | quota | 할당량 | 쿼터 | |
 | error | 오류 | | API 스키마의 고유 명칭(`에러 코드`)은 원문 표기를 따릅니다. |
 | rate limit | 요청 제한 | 레이트 리밋 | |
