@@ -21,6 +21,7 @@
 | backup | 백업 | 백 업 | |
 | branch | 브랜치 | 브런치 | |
 | cache | 캐시 | 캐쉬 | |
+| changelog | 변경이력 | 변경 기록, 체인지로그 | LR-015. 파일 이름 `CHANGELOG.md`는 그대로 씁니다. |
 | certificate | 인증서 | 서티피케이트 | |
 | cluster | 클러스터 | 클러스타 | |
 | commit | 커밋 | 컴밋 | |

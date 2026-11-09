@@ -12,7 +12,7 @@
 | [NHN Cloud Instance API 가이드](https://docs.nhncloud.com/ko/Compute/Instance/ko/public-api/) | 파라미터 표, 필드 설명 |
 | [NHN Cloud Compute 릴리스 노트](https://docs.nhncloud.com/ko/Compute/Compute/ko/release-notes/) | 날짜 제목, 명사형 항목, 버그 수정 항목 |
 | [Kakao Cloud 문서](https://docs.kakaocloud.com/) | 가이드 문장, 절차, 명령 뒤 정상 결과 문장 |
-| [Kakao Cloud API 변경 사항](https://docs.kakaocloud.com/openapi/changelogs) | API 변경 기록 표, 필드 설명 |
+| [Kakao Cloud API 변경 사항](https://docs.kakaocloud.com/openapi/changelogs) | API 변경이력 표, 필드 설명 |
 | [Toss Payments API 레퍼런스](https://docs.tosspayments.com/reference) | 필드와 열거 값 설명, 응답과 오류 문장 |
 | [Toss Payments 릴리스 노트](https://docs.tosspayments.com/resources/release-note) | 제거와 대체 수단을 함께 쓰는 형식 |
 
@@ -41,8 +41,8 @@
 |---|---|---|---|---|
 | 절차 단계 어미 | `-해 주십시오` | `-합니다` | `-합니다`(콘솔), `-하세요`(튜토리얼) | `-하세요` |
 | 다른 문서 참조 | `참고해 주십시오` | `참고합니다` | `참고하세요` | `참고하세요` |
-| 변경 기록 형식 | 3열 표(구분, 변경 내용, 상세 경로), 명사형 | 서비스별 소제목, 명사형 항목, 합니다체 하위 항목 | API 변경 사항은 명사형 표, 서비스 릴리스 노트는 합니다체 문단 | 명사형 제목 + 해요체 문단 |
-| 변경 기록 날짜 | `2026. 9. 17.` | `2026. 08. 20.` | `2026.11.05.` | `2026년 10월` |
+| 변경이력 형식 | 3열 표(구분, 변경 내용, 상세 경로), 명사형 | 서비스별 소제목, 명사형 항목, 합니다체 하위 항목 | API 변경 사항은 명사형 표, 서비스 릴리스 노트는 합니다체 문단 | 명사형 제목 + 해요체 문단 |
+| 변경이력 날짜 | `2026. 9. 17.` | `2026. 08. 20.` | `2026.11.05.` | `2026년 10월` |
 | API 제약 표기 | 명사형 줄 | 명사형 줄 | 명사형 줄 | 합니다체 문장 |
 | 버튼 표기 | **[버튼]** | **버튼** | [버튼] | '**버튼**' |
 | 가운뎃점 | 거의 없음 | 없음(짝 명사는 `/`) | 짝 명사와 나열 | 짝 명사와 나열 |
