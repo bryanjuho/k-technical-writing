@@ -14,7 +14,7 @@ An agent skill that makes AI agents write Korean technical text in the style of 
 
 ## Style baseline
 
-The rules were derived from the public developer docs of NAVER Cloud, NHN Cloud, Kakao Cloud, and Toss Payments. Where those docs disagree, the skill keeps a pending decision with a default that user feedback can flip. Highlights:
+The rules were derived from the public developer docs of NAVER Cloud, NHN Cloud, Kakao Cloud, and Toss Payments. Where those docs disagree, the author compared candidate sentences and picked examples that serve as defaults. They are examples, not hard rules, so other forms are used when the context calls for them. Highlights:
 
 | Area | Rule |
 |---|---|

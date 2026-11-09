@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Korean technical writing skill for AI agents",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "k-technical-writing",
       "source": "./",
       "description": "Korean technical writing for docs, release notes, API references, commit messages and code comments.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
